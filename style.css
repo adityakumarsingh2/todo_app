@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 5px;
+
+}
+
+body {
+  font-family: Ariel, sans-serif;
+  background-color: beige;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgb(177, 177, 177);
+}
+
+input {
+  width: 250px;
+  background-color: #ffbb3c;
+  border-radius: 10px;
+}
+
+#add {
+  background-color: rgb(95, 188, 52);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(249, 109, 94);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: rgb(201, 193, 193);
+}
